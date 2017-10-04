@@ -2,10 +2,36 @@ VMAF - Video Multi-Method Assessment Fusion
 ===================
 [![Build Status](https://travis-ci.org/Netflix/vmaf.svg?branch=master)](https://travis-ci.org/Netflix/vmaf)
 
-i* auto-gen TOC:
-{:toc}
-
 VMAF is a perceptual video quality assessment algorithm developed by Netflix. VMAF Development Kit (VDK) is a software package that contains the VMAF algorithm implementation, as well as a set of tools that allows a user to train and test a custom VMAF model. Read [this](http://techblog.netflix.com/2016/06/toward-practical-perceptual-video.html) tech blog post for an overview.
+
+## Table of Contents (Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)):
+   * [VMAF - Video Multi-Method Assessment Fusion](#vmaf---video-multi-method-assessment-fusion)
+      * [What's New](#whats-new)
+      * [Frequently Asked Questions](#frequently-asked-questions)
+      * [Prerequisite](#prerequisite)
+         * [Prerequisite Installation](#prerequisite-installation)
+         * [Troubleshooting](#troubleshooting)
+      * [Installation](#installation)
+      * [Testing](#testing)
+      * [Basic Usage](#basic-usage)
+         * [Predict Quality on a Cellular Phone Screen](#predict-quality-on-a-cellular-phone-screen)
+      * [Advanced Usage](#advanced-usage)
+         * [Create a Dataset](#create-a-dataset)
+         * [Validate a Dataset](#validate-a-dataset)
+            * [Troubleshooting](#troubleshooting-1)
+         * [Train a New Model](#train-a-new-model)
+         * [Using Custom Subjective Models](#using-custom-subjective-models)
+            * [Running Subjective Model as a Stand-alone Tool](#running-subjective-model-as-a-stand-alone-tool)
+         * [Cross Validation](#cross-validation)
+         * [Creating New Features And Regressors](#creating-new-features-and-regressors)
+      * [Datasets](#datasets)
+         * [Netflix Public Dataset](#netflix-public-dataset)
+         * [VQEG HD3 Dataset](#vqeg-hd3-dataset)
+      * [Python-independent Implementation](#python-independent-implementation)
+            * [Troubleshooting](#troubleshooting-2)
+      * [Usage through libvmaf](#usage-through-libvmaf)
+      * [Usage through Docker](#usage-through-docker)
+
 
 ## What's New
 
